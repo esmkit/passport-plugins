@@ -1,6 +1,6 @@
 {
   "name": "@esmkit/passport-ldap",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "LDAP authentication strategy for Passport and Node.js",
   "author": "Billgo <hi@billgo.me>",
   "bugs": "https://github.com/esmkit/passport-plugins/issues",

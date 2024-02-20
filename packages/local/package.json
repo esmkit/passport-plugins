@@ -1,6 +1,6 @@
 {
   "name": "@esmkit/passport-local",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Username and password authentication strategy for Passport and Node.js.",
   "author": "Billgo <hi@billgo.me>",
   "bugs": "https://github.com/esmkit/passport-plugins/issues",
