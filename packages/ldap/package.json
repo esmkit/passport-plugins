@@ -1,5 +1,5 @@
 {
-  "name": "@esmkit/passport-hidden",
+  "name": "@esmkit/passport-ldap",
   "version": "0.1.0",
   "description": "",
   "author": "Billgo <hi@billgo.me>",
