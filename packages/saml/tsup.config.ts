@@ -11,7 +11,7 @@ export default defineConfig({
 	treeshake: true,
 	minify: true,
 	clean: true,
-	dts: true,
+	dts: false,
 	outExtension: ({ format }) => ({
 		js: `.${format === "esm" ? "mjs" : "cjs"}`,
 	}),
