@@ -1,7 +1,7 @@
 {
   "name": "@esmkit/passport-jwt",
   "version": "0.1.0",
-  "description": "",
+  "description": "A Passport strategy for authenticating with a JSON Web Token.",
   "author": "Billgo <hi@billgo.me>",
   "bugs": "https://github.com/esmkit/passport-plugins/issues",
   "license": "MIT",
@@ -33,7 +33,10 @@
     "build:esm": "bunx tsup",
     "example": "bun run --watch examples/index.ts"
   },
-  "dependencies": {},
+  "dependencies": {
+    "jsonwebtoken": "^9.0.0",
+    "passport-strategy": "^1.0.0"
+  },
   "devDependencies": {
     "@biomejs/biome": "^1.5.3",
     "@devjskit/copy-files": "^1.0.0",
@@ -42,8 +45,12 @@
     "@types/bun": "^1.0.5",
     "@types/node": "^20.10.6",
     "@types/web": "^0.0.132",
+    "passport": "0.4.1",
     "tsup": "^8.0.1",
     "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "passport": "^0.4.1"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
