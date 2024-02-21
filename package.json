@@ -2,7 +2,7 @@
   "private": true,
   "name": "@esmkit/passport-plugins",
   "description": "A set of plugins for passport.",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "license": "MIT",
   "author": "Billgo <hi@billgo.me>",
   "bugs": "https://github.com/esmkit/passport-plugins/issues",

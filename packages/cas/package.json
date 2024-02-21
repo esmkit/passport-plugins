@@ -1,6 +1,6 @@
 {
   "name": "@esmkit/passport-cas",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "CAS strategy for Passport.js authentication",
   "author": "Billgo <hi@billgo.me>",
   "bugs": "https://github.com/esmkit/passport-plugins/issues",
@@ -54,7 +54,7 @@
     "typescript": "^5.3.3"
   },
   "peerDependencies": {
-    "passport": "^0.4.1"
+    "passport": ">=0.4.1"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",

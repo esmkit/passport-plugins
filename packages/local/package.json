@@ -1,6 +1,6 @@
 {
   "name": "@esmkit/passport-local",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Username and password authentication strategy for Passport and Node.js.",
   "author": "Billgo <hi@billgo.me>",
   "bugs": "https://github.com/esmkit/passport-plugins/issues",
@@ -49,7 +49,7 @@
     "typescript": "^5.3.3"
   },
   "peerDependencies": {
-    "passport": "^0.4.1"
+    "passport": ">=0.4.1"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
