@@ -1,6 +1,6 @@
 {
   "name": "@esmkit/passport-jwt",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "A Passport strategy for authenticating with a JSON Web Token.",
   "author": "Billgo <hi@billgo.me>",
   "bugs": "https://github.com/esmkit/passport-plugins/issues",
@@ -55,5 +55,6 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "access": "public"
-  }
+  },
+  "gitHead": "a07ed0c0544e025a9f5b6671ddd24c2fc670b16f"
 }
