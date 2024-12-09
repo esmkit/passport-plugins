@@ -58,7 +58,7 @@
     "typescript": "^5.3.3"
   },
   "peerDependencies": {
-    "passport": ">=0.4.1"
+    "passport": "*"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",

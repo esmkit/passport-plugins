@@ -37,24 +37,24 @@
     "https": "^1.0.0",
     "node-uuid": "^1.4.8",
     "passport-strategy": "^1.0.0",
-    "url": "^0.11.0",
+    "url": "^0.11.4",
     "util": "^0.11.0",
     "xml2js": "^0.4.19"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.5.3",
-    "@devjskit/copy-files": "^1.0.0",
+    "@biomejs/biome": "^1.9.4",
+    "@devjskit/copy-files": "^1.1.0",
     "@devjskit/kill-port": "^1.0.0",
     "@devjskit/rimraf": "^1.0.0",
-    "@types/bun": "^1.0.5",
-    "@types/node": "^20.10.6",
-    "@types/web": "^0.0.132",
+    "@types/bun": "^1.1.14",
+    "@types/node": "^22.10.1",
+    "@types/web": "^0.0.186",
     "passport": "0.4.1",
-    "tsup": "^8.0.1",
-    "typescript": "^5.3.3"
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
   },
   "peerDependencies": {
-    "passport": ">=0.4.1"
+    "passport": "*"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
